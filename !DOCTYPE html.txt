@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshSpin Laundromat</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #1e90ff;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      padding: 1em;
+    }
+    nav a {
+      margin: 0 1em;
+      text-decoration: none;
+      color: #1e90ff;
+    }
+    section {
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1em;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      background: #1e90ff;
+      color: white;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FreshSpin Laundromat</h1>
+    <p>Clean. Fast. Friendly.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>FreshSpin Laundromat offers modern, self-service laundry with top-of-the-line washers and dryers. Open 7 days a week. Clean, safe, and convenient.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Machines" alt="Washers">
+      <img src="https://via.placeholder.com/300x200?text=Dryers" alt="Dryers">
+      <img src="https://via.placeholder.com/300x200?text=Interior" alt="Interior">
+      <img src="https://via.placeholder.com/300x200?text=Waiting+Area" alt="Waiting Area">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@freshspinlaundry.com<br>
+    Phone: (555) 123-4567<br>
+    Address: 123 Main St, Laundryville, USA</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FreshSpin Laundromat</p>
+  </footer>
+</body>
+</html>
